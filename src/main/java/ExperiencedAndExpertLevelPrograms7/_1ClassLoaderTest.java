@@ -22,6 +22,11 @@ public class _1ClassLoaderTest {
 
 	}
 	
+	public void checkGitPushFunctionality()
+	{
+		System.out.println("This function is added by user One and it's need to pushed to repository");
+	}
+	
 	public void classLoaderHierarchy() {
 		System.out.println("When JVM requires any .class file while executing the program"
 				+ "Jvm will serach .class in method area, if it is not there then , jvm requests /communicates with classLoaderSusystem and classLoaderLoader follows deligations "
