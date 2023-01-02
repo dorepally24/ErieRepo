@@ -41,6 +41,11 @@ public class _1ClassLoaderTest {
 		{
 			
 		}
+		
+	}
+	public void architectMethod()
+	{
+		System.out.println("This is architect Metod");
 	}
 
 }
