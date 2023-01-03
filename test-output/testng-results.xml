@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-02T19:44:08 IST" name="SuiteClassParallel" finished-at="2023-01-02T19:44:19 IST" duration-ms="10645">
+    <groups>
+    </groups>
+    <test started-at="2023-01-02T19:44:08 IST" name="TestParallel" finished-at="2023-01-02T19:44:19 IST" duration-ms="10645">
+      <class name="testng.tutorial.day1">
+        <test-method signature="itsATestCaseName()[pri:0, instance:testng.tutorial.day1@28f2a10f]" started-at="2023-01-02T19:44:08 IST" name="itsATestCaseName" finished-at="2023-01-02T19:44:08 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itsATestCaseName -->
+        <test-method signature="tet2()[pri:0, instance:testng.tutorial.day1@28f2a10f]" started-at="2023-01-02T19:44:08 IST" name="tet2" finished-at="2023-01-02T19:44:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tet2 -->
+      </class> <!-- testng.tutorial.day1 -->
+      <class name="testng.tutorial.day2">
+        <test-method signature="day2Test()[pri:0, instance:testng.tutorial.day2@4fb3ee4e]" started-at="2023-01-02T19:44:08 IST" name="day2Test" finished-at="2023-01-02T19:44:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day2Test -->
+      </class> <!-- testng.tutorial.day2 -->
+      <class name="testng.tutorial.day3">
+        <test-method signature="carCoverageValidation()[pri:0, instance:testng.tutorial.day3@51e69659]" started-at="2023-01-02T19:44:08 IST" name="carCoverageValidation" finished-at="2023-01-02T19:44:11 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carCoverageValidation -->
+        <test-method signature="carLoanAPILigin()[pri:0, instance:testng.tutorial.day3@51e69659]" started-at="2023-01-02T19:44:11 IST" name="carLoanAPILigin" finished-at="2023-01-02T19:44:13 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanAPILigin -->
+        <test-method signature="carLoanMobileLigin()[pri:0, instance:testng.tutorial.day3@51e69659]" started-at="2023-01-02T19:44:13 IST" name="carLoanMobileLigin" finished-at="2023-01-02T19:44:14 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanMobileLigin -->
+        <test-method signature="carLoanWebLigin()[pri:0, instance:testng.tutorial.day3@51e69659]" started-at="2023-01-02T19:44:14 IST" name="carLoanWebLigin" finished-at="2023-01-02T19:44:16 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanWebLigin -->
+        <test-method signature="carTelematicValidation()[pri:0, instance:testng.tutorial.day3@51e69659]" started-at="2023-01-02T19:44:16 IST" name="carTelematicValidation" finished-at="2023-01-02T19:44:17 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carTelematicValidation -->
+        <test-method signature="carZeroDipValidation()[pri:0, instance:testng.tutorial.day3@51e69659]" started-at="2023-01-02T19:44:17 IST" name="carZeroDipValidation" finished-at="2023-01-02T19:44:19 IST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carZeroDipValidation -->
+      </class> <!-- testng.tutorial.day3 -->
+      <class name="testng.tutorial.day4">
+        <test-method signature="HomeLoanAPILigin()[pri:0, instance:testng.tutorial.day4@47e2e487]" started-at="2023-01-02T19:44:08 IST" name="HomeLoanAPILigin" finished-at="2023-01-02T19:44:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanAPILigin -->
+        <test-method signature="HomeLoanMobileLigin()[pri:0, instance:testng.tutorial.day4@47e2e487]" started-at="2023-01-02T19:44:08 IST" name="HomeLoanMobileLigin" finished-at="2023-01-02T19:44:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanMobileLigin -->
+        <test-method signature="HomeLoanWebLigin()[pri:0, instance:testng.tutorial.day4@47e2e487]" started-at="2023-01-02T19:44:08 IST" name="HomeLoanWebLigin" finished-at="2023-01-02T19:44:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanWebLigin -->
+      </class> <!-- testng.tutorial.day4 -->
+    </test> <!-- TestParallel -->
+  </suite> <!-- SuiteClassParallel -->
+</testng-results>

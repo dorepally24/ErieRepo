@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SuiteClassParallel" class="navigator-link">
+              <span class="suite-name border-passed">SuiteClassParallel</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SuiteClassParallel" class="navigator-link ">
+                    <span>C:\Users\shivashankerd\gitCloned\UserOne\classParllel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SuiteClassParallel" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SuiteClassParallel" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SuiteClassParallel" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SuiteClassParallel" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SuiteClassParallel" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SuiteClassParallel" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteClassParallel" class="hide-methods passed suite-SuiteClassParallel"> (hide)</a> <!-- hide-methods passed suite-SuiteClassParallel -->
+                      <a href="#" panel-name="suite-SuiteClassParallel" class="show-methods passed suite-SuiteClassParallel"> (show)</a> <!-- show-methods passed suite-SuiteClassParallel -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteClassParallel">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day4" class="method navigator-link" hash-for-method="HomeLoanAPILigin">HomeLoanAPILigin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day4" class="method navigator-link" hash-for-method="HomeLoanMobileLigin">HomeLoanMobileLigin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day4" class="method navigator-link" hash-for-method="HomeLoanWebLigin">HomeLoanWebLigin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day3" class="method navigator-link" hash-for-method="carCoverageValidation">carCoverageValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day3" class="method navigator-link" hash-for-method="carLoanAPILigin">carLoanAPILigin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day3" class="method navigator-link" hash-for-method="carLoanMobileLigin">carLoanMobileLigin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day3" class="method navigator-link" hash-for-method="carLoanWebLigin">carLoanWebLigin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day3" class="method navigator-link" hash-for-method="carTelematicValidation">carTelematicValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day3" class="method navigator-link" hash-for-method="carZeroDipValidation">carZeroDipValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day2" class="method navigator-link" hash-for-method="day2Test">day2Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day1" class="method navigator-link" hash-for-method="itsATestCaseName">itsATestCaseName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteClassParallel" title="testng.tutorial.day1" class="method navigator-link" hash-for-method="tet2">tet2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteClassParallel -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteClassParallel" class="panel SuiteClassParallel">
+          <div class="suite-SuiteClassParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testng.tutorial.day2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="day2Test">
+                  </a> <!-- day2Test -->
+                  <span class="method-name">day2Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteClassParallel-class-passed -->
+          <div class="suite-SuiteClassParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testng.tutorial.day3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carCoverageValidation">
+                  </a> <!-- carCoverageValidation -->
+                  <span class="method-name">carCoverageValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carLoanAPILigin">
+                  </a> <!-- carLoanAPILigin -->
+                  <span class="method-name">carLoanAPILigin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carLoanMobileLigin">
+                  </a> <!-- carLoanMobileLigin -->
+                  <span class="method-name">carLoanMobileLigin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carLoanWebLigin">
+                  </a> <!-- carLoanWebLigin -->
+                  <span class="method-name">carLoanWebLigin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carTelematicValidation">
+                  </a> <!-- carTelematicValidation -->
+                  <span class="method-name">carTelematicValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carZeroDipValidation">
+                  </a> <!-- carZeroDipValidation -->
+                  <span class="method-name">carZeroDipValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteClassParallel-class-passed -->
+          <div class="suite-SuiteClassParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testng.tutorial.day1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="itsATestCaseName">
+                  </a> <!-- itsATestCaseName -->
+                  <span class="method-name">itsATestCaseName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tet2">
+                  </a> <!-- tet2 -->
+                  <span class="method-name">tet2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteClassParallel-class-passed -->
+          <div class="suite-SuiteClassParallel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testng.tutorial.day4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeLoanAPILigin">
+                  </a> <!-- HomeLoanAPILigin -->
+                  <span class="method-name">HomeLoanAPILigin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeLoanMobileLigin">
+                  </a> <!-- HomeLoanMobileLigin -->
+                  <span class="method-name">HomeLoanMobileLigin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeLoanWebLigin">
+                  </a> <!-- HomeLoanWebLigin -->
+                  <span class="method-name">HomeLoanWebLigin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteClassParallel-class-passed -->
+        </div> <!-- panel SuiteClassParallel -->
+        <div panel-name="test-xml-SuiteClassParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shivashankerd\gitCloned\UserOne\classParllel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;16&quot; parallel=&quot;classes&quot; name=&quot;SuiteClassParallel&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;16&quot; parallel=&quot;classes&quot; name=&quot;TestParallel&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testng.tutorial.day1&quot;/&gt;
+      &lt;class name=&quot;testng.tutorial.day2&quot;/&gt;
+      &lt;class name=&quot;testng.tutorial.day3&quot;/&gt;
+      &lt;class name=&quot;testng.tutorial.day4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestParallel --&gt;
+&lt;/suite&gt; &lt;!-- SuiteClassParallel --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteClassParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteClassParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestParallel (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteClassParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteClassParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteClassParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteClassParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteClassParallel');
+function tableData_SuiteClassParallel() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'carCoverageValidation')
+data.setCell(0, 2, 'testng.tutorial.day3')
+data.setCell(0, 3, 3363);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'carLoanAPILigin')
+data.setCell(1, 2, 'testng.tutorial.day3')
+data.setCell(1, 3, 1532);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'carLoanMobileLigin')
+data.setCell(2, 2, 'testng.tutorial.day3')
+data.setCell(2, 3, 1518);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'carLoanWebLigin')
+data.setCell(3, 2, 'testng.tutorial.day3')
+data.setCell(3, 3, 1429);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'carTelematicValidation')
+data.setCell(4, 2, 'testng.tutorial.day3')
+data.setCell(4, 3, 1400);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'carZeroDipValidation')
+data.setCell(5, 2, 'testng.tutorial.day3')
+data.setCell(5, 3, 1355);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'itsATestCaseName')
+data.setCell(6, 2, 'testng.tutorial.day1')
+data.setCell(6, 3, 9);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'HomeLoanAPILigin')
+data.setCell(7, 2, 'testng.tutorial.day4')
+data.setCell(7, 3, 8);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'day2Test')
+data.setCell(8, 2, 'testng.tutorial.day2')
+data.setCell(8, 3, 8);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HomeLoanMobileLigin')
+data.setCell(9, 2, 'testng.tutorial.day4')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tet2')
+data.setCell(10, 2, 'testng.tutorial.day1')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'HomeLoanWebLigin')
+data.setCell(11, 2, 'testng.tutorial.day4')
+data.setCell(11, 3, 1);
+window.suiteTableData['SuiteClassParallel']= { tableData: data, tableDiv: 'times-div-SuiteClassParallel'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-SuiteClassParallel">
+              </div> <!-- times-div-SuiteClassParallel -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteClassParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteClassParallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteClassParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteClassParallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.tutorial.day3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">carCoverageValidation</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.tutorial.day4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomeLoanAPILigin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.tutorial.day1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">itsATestCaseName</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.tutorial.day2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">day2Test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.tutorial.day1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tet2</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.tutorial.day4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomeLoanMobileLigin</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomeLoanWebLigin</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.tutorial.day3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">carLoanAPILigin</span>
+                <span class="method-start">3366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">carLoanMobileLigin</span>
+                <span class="method-start">4900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">carLoanWebLigin</span>
+                <span class="method-start">6420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">carTelematicValidation</span>
+                <span class="method-start">7852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">carZeroDipValidation</span>
+                <span class="method-start">9254 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
