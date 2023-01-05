@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BeforeSuite">
+  <test thread-count="5" name="BeforeSuiteTest">
+    <classes>
+      <class name="testng.tutorial.day1"/>
+      <class name="testng.tutorial.day2"/>
+      <class name="testng.tutorial.day3"/>
+      <class name="testng.tutorial.day4"/>
+    </classes>
+  </test> <!-- BeforeSuiteTest -->
+</suite> <!-- BeforeSuite -->

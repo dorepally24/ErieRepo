@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataProviderDemoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DataProviderDemoTest(failed)">
+    <classes>
+      <class name="testng.tutorial.DataProviderDemoTODriveTestCasesMultipleIterations">
+        <methods>
+          <include name="testGeicoLogin"/>
+        </methods>
+      </class> <!-- testng.tutorial.DataProviderDemoTODriveTestCasesMultipleIterations -->
+    </classes>
+  </test> <!-- DataProviderDemoTest(failed) -->
+</suite> <!-- Failed suite [DataProviderDemoSuite] -->

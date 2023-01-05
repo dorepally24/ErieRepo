@@ -6,6 +6,9 @@ import java.time.format.DateTimeFormatter;
 
 import org.comp.erieinsurance_automation.SeleniumWrapper;
 import org.comp.erieinsurance_automation.SeleniumWrapper.EnumListOfBrowsers;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class day3 {
@@ -17,13 +20,29 @@ public class day3 {
 	   
 	   EnumListOfBrowsers obj2;
 	   
+	   @BeforeMethod
+		public void beforeMethodOfDay1Class()
+		{
+			System.out.println("beforeMethodOf Day3 Class and it will be executed before each"
+					+ "method of class day3");
+		}
+		
+		
+		@AfterMethod
+		public void afterMethodOfDay1Class()
+		{
+			System.out.println("After Method Of Day3 Class and it will be executed After each"
+					+ "method of class day3");
+		}
+	   
 
 	@Test
 	public void carLoanWebLigin()
 	{
 		System.out.println("carLoanWebLigin");
 		System.out.println(dtf.format(now)); 
-		obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		//obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		Assert.assertTrue(false);
 	}
 	
 	@Test
@@ -32,16 +51,20 @@ public class day3 {
 		System.out.println("carLoanMobileLigin");
 		System.out.println(dtf.format(now));  
 		
-		obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		Assert.assertFalse(true);
+		
+		///obj.invokeBrowser(EnumListOfBrowsers.CHROME);
 	}
 	
 	@Test
 	public void carLoanAPILigin()
 	{
 		System.out.println("carLoanAPILigin");
-		System.out.println(dtf.format(now));  
+		System.out.println(dtf.format(now)); 
+		
+		Assert.assertTrue(true);
 
-		obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		//obj.invokeBrowser(EnumListOfBrowsers.CHROME);
 	}
 	
 	@Test
@@ -50,7 +73,8 @@ public class day3 {
 		System.out.println("carCoverageValidation");
 		System.out.println(dtf.format(now));  
 
-		obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		//obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		Assert.assertTrue(false);
 	}
 	
 	@Test
@@ -58,7 +82,9 @@ public class day3 {
 	{
 		System.out.println("carCoverageValidation");
 		System.out.println(dtf.format(now));  
-		obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		//obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		Assert.assertTrue(true);
+		
 	}
 	
 	@Test
@@ -66,6 +92,8 @@ public class day3 {
 	{
 		System.out.println("carCoverageValidation");
 		System.out.println(dtf.format(now));  
-		obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		//obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		Assert.assertTrue(false);
+		
 	}
 }

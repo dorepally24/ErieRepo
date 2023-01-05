@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="TestOrModuleLevelSuite">
+  <test thread-count="3" parallel="tests" name="TestOrModuleLevelTest1">
+    <classes>
+      <class name="testNgParllelTestORModuleExecution.day4Test1Module"/>
+      <class name="testNgParllelTestORModuleExecution.day5Test1Module"/>      
+    </classes>
+  </test> <!-- TestOrModuleLevelTest -->
+  
+  <test thread-count="3" parallel="tests" name="TestOrModuleLevelTest2">
+    <classes>      
+      <class name="testNgParllelTestORModuleExecution.day6Test2Module"/>
+      <class name="testNgParllelTestORModuleExecution.day7Test2Module"/>
+    </classes>
+  </test> <!-- TestOrModuleLevelTest -->
+  
+  
+</suite> <!-- TestOrModuleLevelSuite -->

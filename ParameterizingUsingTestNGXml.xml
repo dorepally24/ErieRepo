@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParameterizingUsingTestNGXmlSuite">
+
+	<!-- Globla paremertes can be declared here, that will be applicable for all test folders -->
+
+	<parameter name="nameOfTheDomain" value="Insurance Domain"></parameter>
+	<test thread-count="5" name="ErieParameterizingUsingTestNGXmlTest">
+
+		<!-- individual test folder or module specific parmeters will be defined here -->
+
+		<parameter name="ErieUrl" value="http://Erie.co.in"></parameter>
+		<parameter name="ErieUserName" value="Admin"></parameter>
+		<parameter name="EriePassword" value="Erie2kee"></parameter>
+		
+		<parameter name="policyNumber" value="2346787641"></parameter>
+		<parameter name="accountHolderName" value="Jhon Abrams"></parameter>
+
+		<classes>
+			<class name="testng.tutorial.ErieParameterizingUsingTestNGXml" />
+		</classes>
+	</test> <!-- ParameterizingUsingTestNGXmlTest -->
+
+
+	<test thread-count="5" name="GeicoParameterizingUsingTestNGXmlTest">
+
+		<!-- individual test folder or module specific parmeters will be defined here -->
+
+		<parameter name="geiocUrl" value="http://gieco.co.in"></parameter>
+		<parameter name="ErieUserName" value="AdminGeico"></parameter>
+		<parameter name="EriePassword" value="Geico2kee"></parameter>
+		
+		<classes>
+			<class name="testng.tutorial.GeicoParameterizingUsingTestNGXml" />
+		</classes>
+	</test> <!-- ParameterizingUsingTestNGXmlTest -->
+
+
+</suite> <!-- ParameterizingUsingTestNGXmlSuite -->
