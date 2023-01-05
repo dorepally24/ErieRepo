@@ -1,4 +1,4 @@
-package POMS;
+package erieInsurance.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

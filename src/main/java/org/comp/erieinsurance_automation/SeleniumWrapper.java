@@ -61,7 +61,7 @@ public class SeleniumWrapper {
 		try {
 
 			// close all opened browsers
-			//killAllChromeBorwserExe();
+			// killAllChromeBorwserExe();
 
 			switch (browserName) {
 
@@ -106,16 +106,11 @@ public class SeleniumWrapper {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	public void launchApplication(String urlOfTheApplication)
-	{
-		try 
-		{
+
+	public void launchApplication(String urlOfTheApplication) {
+		try {
 			driver.get(urlOfTheApplication);
-		}
-		catch(Exception ex)
-		{
+		} catch (Exception ex) {
 			System.out.println(ex.getMessage());
 		}
 	}
