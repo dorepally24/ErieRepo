@@ -1,19 +1,19 @@
 package Dryrun_TestCases;
 
-import org.comp.erieinsurance_automation.SeleniumWrapper;
-import org.comp.erieinsurance_automation.SeleniumWrapper.EnumListOfBrowsers;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import erieInsurance.pageObjects.ErieInsurance;
+import _1org.comp.erieinsurance_automation.SeleniumWrapper;
+import _1org.comp.erieinsurance_automation.SeleniumWrapper.EnumListOfBrowsers;
+import _2erieInsurance.pageObjects.ErieInsuranceHomePage;
 
 public class ErieHomePageTests {
 	
 	WebDriver driver;
 	
 	//creating object for ErieInsurance Home Page
-	ErieInsurance objErieInsurance = new ErieInsurance(driver);
+	ErieInsuranceHomePage objErieInsurance = new ErieInsuranceHomePage(driver);
 	
 	//creating object for SeleniumWrpper class 
 	SeleniumWrapper objSeleniumWrapper = new SeleniumWrapper();

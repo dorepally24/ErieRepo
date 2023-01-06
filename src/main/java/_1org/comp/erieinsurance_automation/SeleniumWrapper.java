@@ -1,7 +1,10 @@
-package org.comp.erieinsurance_automation;
+package _1org.comp.erieinsurance_automation;
 
 import java.io.IOException;
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
@@ -15,6 +18,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SeleniumWrapper {
 
 	WebDriver driver;
+	
+	Boolean methodExecutionFlag = false;
 
 	public SeleniumWrapper() {
 
@@ -114,5 +119,56 @@ public class SeleniumWrapper {
 			System.out.println(ex.getMessage());
 		}
 	}
+	
+	
+	/**
+	 * This method can be used to enter data
+	 * @param element
+	 * @param dataToBeEntered
+	 */
+	public Boolean enterData(WebElement element, String dataToBeEntered)
+	{
+		try {
+			element.sendKeys(dataToBeEntered);
+			
+			methodExecutionFlag = true;
+			
+		} catch (Exception ex) {
+			// TODO: handle exception
+			System.out.println(ex.getMessage());
+		}
+		
+		return methodExecutionFlag;
+	}
+	
+	/**
+	 * This method verifies the list of webElements existance on page.
+	 * @param listOfWebElements
+	 * @return
+	 */
+	public Boolean webElementListVerification(List<WebElement> listOfWebElements)
+	{
+		
+		try {
+			
+			for(WebElement elementToBeValidated : listOfWebElements)
+			{
+				elementToBeValidated.isDisplayed();
+			}
+			
+			methodExecutionFlag = true;
+			
+		}
+		catch(Exception ex)
+		{
+			System.out.println(ex.getMessage());
+		}		
+		
+		return methodExecutionFlag;
+	}
+	
+	
+	
+	
 
 }

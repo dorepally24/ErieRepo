@@ -1,8 +1,9 @@
-import org.comp.erieinsurance_automation.SeleniumWrapper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import _1org.comp.erieinsurance_automation.SeleniumWrapper;
 
 public class _7IsThereAWayToTypeInATextboxWithoutUsingSendKeysMethod extends SeleniumWrapper{
 

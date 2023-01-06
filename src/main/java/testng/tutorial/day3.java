@@ -4,12 +4,13 @@ import java.sql.Date;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import org.comp.erieinsurance_automation.SeleniumWrapper;
-import org.comp.erieinsurance_automation.SeleniumWrapper.EnumListOfBrowsers;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import _1org.comp.erieinsurance_automation.SeleniumWrapper;
+import _1org.comp.erieinsurance_automation.SeleniumWrapper.EnumListOfBrowsers;
 
 public class day3 {
 	
@@ -41,7 +42,7 @@ public class day3 {
 	{
 		System.out.println("carLoanWebLigin");
 		System.out.println(dtf.format(now)); 
-		//obj.invokeBrowser(EnumListOfBrowsers.CHROME);
+		obj.invokeBrowser(EnumListOfBrowsers.CHROME);
 		Assert.assertTrue(false);
 	}
 	
